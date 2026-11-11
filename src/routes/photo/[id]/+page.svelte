@@ -1,5 +1,5 @@
 <script>
-	import { imageUrl, notesFor } from '#lib/photos.js';
+	import { imageUrl, notesFor, yearLabel } from '#lib/photos.js';
 	import NoteCard from '#lib/NoteCard.svelte';
 
 	/** @type {import('./$types').PageProps} */
@@ -61,6 +61,19 @@
 		<div>
 			<p class="text-xs font-semibold tracking-wide text-sepia uppercase">Caption</p>
 			<p class="mt-2 font-serif text-lg leading-relaxed">{photo.caption || 'No caption'}</p>
+			<div class="mt-3 flex flex-wrap gap-2 text-xs">
+				{#if photo.year}
+					<span class="rounded-full bg-ink/5 px-2.5 py-1 text-ink/70" title={photo.yearIsGuess ? 'Estimated from the caption' : 'From the caption'}>
+						{yearLabel(photo)}
+					</span>
+				{/if}
+				{#each photo.families as f (f)}
+					<a href="/?family={encodeURIComponent(f)}" class="rounded-full border border-sepia/30 px-2.5 py-1 text-sepia hover:bg-sepia/10">{f}</a>
+				{/each}
+				{#each photo.topics as t (t)}
+					<a href="/?topic={encodeURIComponent(t)}" class="rounded-full bg-sepia/10 px-2.5 py-1 text-sepia hover:bg-sepia/20">{t}</a>
+				{/each}
+			</div>
 		</div>
 
 		{#each notes as note (note.title)}
