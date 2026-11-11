@@ -1,0 +1,276 @@
+[
+ {
+  "title": "The 1947 renumbering on E. Commercial",
+  "body": "Springfield renumbered most addresses in 1947 (after a first attempt in 1941). The captions give a consistent shift of 116 on this block: Jessie's 1548 became 1432, and John & Lella's 1544 became 1428. One caption gives John & Lella's old address as 1514, which doesn't fit that pattern and is probably a typo for 1544. The Springfield-Greene County Library has a pre/post-1947 address conversion tool and can confirm this.",
+  "photos": [
+   "ca48d2ca11",
+   "b7d8f8c364",
+   "dd400663aa",
+   "46a5d74843",
+   "d971c8ca49",
+   "d36f6adf77"
+  ],
+  "sources": [
+   "https://www.thelibrary.org/post/renumbering-the-streets"
+  ],
+  "kind": "conflict"
+ },
+ {
+  "title": "Where was Jack born?",
+  "body": "Different captions place Jack's 1914 birth at Lake George, Osawatomie or Springfield. The later captions settle on Springfield (Sep 8, 1914), backed by Find a Grave and the Social Security NUMIDENT. That points to Jessie travelling home to her parents to give birth, just as Homer's 1916 birth was in Colorado. Earlier captions that say Lake George could be updated.",
+  "photos": [
+   "956fa7ad5a",
+   "0d9dce3129",
+   "d5d76c275f",
+   "9fa694cfc1",
+   "76e97906eb",
+   "2c79181906"
+  ],
+  "kind": "conflict"
+ },
+ {
+  "title": "Cars as clocks",
+  "body": "Cars are a good way to date photos, and a few captions can be tightened. The Ford Crown Victoria Joe drove to Coffeyville was only made for 1955-56, so that visit was probably 1955 or later, not ~1954. The Model A was introduced in Dec 1927 (as a 1928 model), so a \"'27 Model A\" is at the earliest 1928. The 1926 Colorado plate and the 1924-25 Model T Tudor are solid date anchors.",
+  "photos": [
+   "b9e110b068",
+   "f91468a2a7",
+   "b5fb8a9b92",
+   "b22e2f98e4",
+   "9c6559d19a"
+  ],
+  "kind": "conflict"
+ },
+ {
+  "title": "Dates that disagree",
+  "body": "A few captions conflict with each other and are worth a second look. Volney's death: one caption says '96 and another says 1997, but \"Thanksgiving 1994... died exactly three years later on Thanksgiving day\" gives Nov 27, 1997. Bess Fitch: the back of one photo says 1894-1984, yet another shows her \"age 95\" beside Massey (76). With Massey born around 1913, that photo is from about 1989, so she likely died after 1984. Coffman appears as both William Warren and Warren William. Clara Bell is also spelled Clarabell, which is how Clara Kate wrote it on the back of a photo.",
+  "photos": [
+   "ec14ebf44c",
+   "2bff26b428",
+   "48edb7b845",
+   "24bddd7ae1",
+   "68e6585d04",
+   "0729557ca0",
+   "7cc552fbf2"
+  ],
+  "kind": "conflict"
+ },
+ {
+  "kind": "conflict",
+  "title": "Joe Volney Fitch: 92 or 93?",
+  "body": "His 1999 obituary says he was 92, but it also says he was born March 3, 1906 and died March 6, 1999, so he had turned 93 three days earlier. The obituary also misspells his middle name as \"Volvey\". Newspaper obituaries are a secondary source; his death certificate or Social Security record would settle the birth year.",
+  "photos": [
+   "f9e0c61c1b",
+   "f57fce9cd6"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "When did Joe and Jessie separate?",
+  "body": "One caption says Joe W. went to California \"after separating from Jessie in about 1930\"; another says \"their separation in the late 30s\". Nancy was born in 1929, which fits either. A third caption says he lived in a shack at Tom's salvage yard on E. Blaine while separated, so he may have been in California first and Springfield later. City directories for 1930-1940 would show where Joe was each year.",
+  "photos": [
+   "82f4594329",
+   "0dbb549e3e",
+   "4bba816ab5"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "Wes & Ora or Wes & Lora?",
+  "body": "One caption reads \"Wes & Ora Bruer's home at 925\", but Ora was Clair's wife; Wes's second wife was Lora (the dance instructor \"Madam Lansing Bruer\"). Every other photo of the 925 house says Wes and Lora, so this is almost certainly a slip.",
+  "photos": [
+   "d397d426ed",
+   "35b61c4bb5",
+   "5b565bbe1b",
+   "c6e243fac7"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "Lura Bruer Cramer, not Lura Cramer Bruer",
+  "body": "Lura was born a Bruer and married Henry Cramer, so she is \"Lura Bruer Cramer\" in most captions. One caption has it reversed: \"Lura Cramer Bruer and dau. Clara Bell\".",
+  "photos": [
+   "bd5749aa05",
+   "f6912b00f0",
+   "31b81cbed9"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "Nancy's marriages",
+  "body": "One caption says Nancy and Max Jones divorced and \"she later married Harvey Bowles\"; another adds \"a short marriage to someone else before Harvey\". Not a contradiction, but the first leaves out a marriage.",
+  "photos": [
+   "34d07c7222",
+   "360bb18570"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "Was Wes old enough for the 1898 war?",
+  "body": "Wes is recorded as born in May 1881, which made him 17 in the summer of 1898. Volunteers generally had to be 18 (or 18-21 with a parent's consent), so either he enlisted a little young, his birth year is off, or he joined later (the Philippine war continued until 1902). His service record would show his stated age at enlistment.",
+  "photos": [
+   "58cc727b08",
+   "1425166bda",
+   "cdf82f3807"
+  ]
+ },
+ {
+  "kind": "conflict",
+  "title": "Hannah's graduation: Dec '26?",
+  "body": "This caption says Hannah graduated from Mizzou in \"Dec '26\", but December 2026 hasn't happened yet (as of Nov 2026). It's probably Dec '25.",
+  "photos": [
+   "dc9bcc946b"
+  ]
+ },
+ {
+  "title": "The Volney thread",
+  "body": "The 1870 census photo proves the \"V\" in Thomas V. Massey stands for Volney, and the name then runs down five generations: George Volney Fitch, Joe Volney Fitch, Volney Bruer, Gerald Volney Bruer and Matthew Volney Bruer. The captions suggest it came from C.F. Volney, author of \"The Ruins\" (1791). Research adds a twist: the 1802 English translation was secretly done by Thomas Jefferson (the invocation and roughly the first 20 chapters) and Joel Barlow, who finished it. Barlow's role came out in 1819; Jefferson's was not known until the early 1900s.",
+  "photos": [
+   "f37b7e7468",
+   "ea8c5bd6a0",
+   "aeea0f7c9c",
+   "5a2aac5292",
+   "f57fce9cd6",
+   "e0a4e69aca"
+  ],
+  "sources": [
+   "https://founders.archives.gov/documents/Jefferson/01-37-02-0231",
+   "https://radicaltranslations.org/blog/lives-in-translation-thomas-jefferson/"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "The family's moves, pieced together",
+  "body": "Read together, the captions give a timeline for Joe and Jessie: Tom born in Springfield in 1908; Osawatomie, KS by 1910 (a postcard postmarked there, Joe working for the railroad); Jack born in Springfield in 1914; Homer born near Lake George, CO in 1916; Cheyenne by 1917-19 (Seymour & 9th, where Dr. McCaw wrote about Jessie's eye in Dec 1919); 1705 Russell St, Laramie in the 1920 census; Tarryall from 1920 (cows bought Feb 1922); then covered wagons back to Springfield in 1925. Homer's autobiography puts the Tarryall move at 1917/18, but the paper trail (letters, census, receipts) says 1920.",
+  "photos": [
+   "ea757fb611",
+   "3c5d2089b5",
+   "1e67ae111a",
+   "d0342e7e3c",
+   "76e97906eb",
+   "079db7a164",
+   "5684d538f6"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "1916-1918: three hard years",
+  "body": "Ewart died in a motorcycle accident on Aug 13, 1916; a photo dated Sept 1916 shows Joe's family visiting home, probably for the funeral. Josephine Massey Watson and Nancy Piper Massey Brumfield both died in 1917. Edith Fitch Lower died in Nov 1918, at the peak of the Spanish flu's deadly second wave (Oct-Nov 1918), which was unusual in killing healthy young adults. Massey Fitch's 1956 postcard dates the happy Williams Canyon trip to 1918, the same year.",
+  "photos": [
+   "cfbd90bef7",
+   "a2c3374fdf",
+   "098402ca5e",
+   "fa049b7a4d",
+   "eb0e14fd03",
+   "987919395d"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "A Latimer connection?",
+  "body": "Ewart is photographed on a motorcycle in 1914 with \"Marie Latimer\". Uncle Vol Fitch married Bess Latimer in 1912. The shared surname suggests Marie may have been Bess's relative (a sister or cousin), which would tie the Bruer and Fitch families together a few years before Joe and Jessie's children were born. This is only a hypothesis; a census search for Latimers in Springfield around 1910 could test it. (Note: Bess mentions a sister in Colorado Springs in 1918.)",
+  "photos": [
+   "cfbd90bef7",
+   "85419ef25b",
+   "3e0bcde566",
+   "f78c7fe3c6"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "Railroad family",
+  "body": "Railroads run through both sides. Joe W. Bruer worked for the railroad in Osawatomie, a Missouri Pacific division point since 1880. Jack was a lifelong engineer on the Frisco (St. Louis-San Francisco Railway, which had its major shops in Springfield), exempt from the WWII draft. Joe Volney Fitch retired as a Frisco clerk. A Bruer is photographed with an L&N (Louisville & Nashville) locomotive in Tennessee.",
+  "photos": [
+   "ea757fb611",
+   "8ead04f552",
+   "234c8ccb8a",
+   "f9e0c61c1b",
+   "7d7c32e69e"
+  ],
+  "sources": [
+   "https://www.up.com/aboutup/train_town/osawatomie_ks/index.htm"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "Spanish-American War and Hawaii",
+  "body": "Joe W., Frank and Wes Bruer all served in the Spanish-American War, and the collection holds Hawaii photo cards including Diamond Head \"near Camp McKinley\". Camp McKinley was set up in Aug 1898 at the foot of Diamond Head. It housed the 1st New York Volunteers and engineers, plus detachments of recruits heading for regiments already in Manila (1st Colorado, 1st Nebraska and others). Joe W.'s burial in the Springfield National Cemetery in 1952 fits a veteran. Next step: their compiled service records at the National Archives would name the regiment and show whether they reached the Philippines.",
+  "photos": [
+   "1425166bda",
+   "cdf82f3807",
+   "0db893f1fb"
+  ],
+  "sources": [
+   "https://fortwiki.com/Camp_McKinley_(Hawaii_1)",
+   "https://imagesofoldhawaii.com/camp-mckinley/"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "Covered wagons in 1925",
+  "body": "By 1925 most families moved by car or train, so a covered-wagon trip from Tarryall to Springfield is remarkable. The photos give route clues: picking cotton for money (Oklahoma, harvested Oct-Nov), a possible view of the state penitentiary at McAlester (opened 1908), and the \"bonnet people\" travelling with them. If the McAlester photo is right, the family took a southern route through eastern Oklahoma rather than straight across Kansas. Leaving in spring and arriving around winter means months on the road.",
+  "photos": [
+   "5684d538f6",
+   "4278194dac",
+   "7ce2ba161f",
+   "18cb1e5296",
+   "7a7c1937c4",
+   "d940e89f08",
+   "1b378d309a"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "title": "The Massey farm near Nogo",
+  "body": "Nogo (also called Mulroy) was a small community in Greene County on old Route 66, about 10 miles east of Springfield, whose site is now inside Strafford. That fits the family memory of the \"Massey farm near Nogo\", homesteaded by Captain James Massey in the early 1830s. Greene County land records from the 1830s-40s could confirm the claim. (There is another Nogo in Pope County, Arkansas, not to be confused with this one.)",
+  "photos": [
+   "6dd8e30947"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nogo,_Missouri"
+  ],
+  "kind": "pattern"
+ },
+ {
+  "kind": "pattern",
+  "title": "Jessie named her children after her own family",
+  "body": "Five of Jessie's seven children seem to carry names from her side of the family. Homer matches her brother Homer Fitch. Volney matches her brother George Volney Fitch and her grandfather Thomas Volney Massey. Jack matches her uncle John Henry \"Jack\" Massey, who built her house. Tom may come from Thomas Volney Massey. Nancy matches her grandmother Nancy Piper Massey Brumfield. Joe Clair is named for his father Joe and, likely, Joe's brother Clair. These are inferences from the names, not stated in the captions.",
+  "photos": [
+   "eb0e14fd03",
+   "aeea0f7c9c",
+   "ca48d2ca11",
+   "3bc853635f"
+  ]
+ },
+ {
+  "kind": "pattern",
+  "title": "Two Ewarts",
+  "body": "Clair & Ora's son Bill was really Ewart (\"Bill (Ewart)\"), the same name as Clair's younger brother Ewart, who died at 16 in Aug 1916. Cecil already appears as a baby in 1915. If Bill was born after Aug 1916, he was very likely named in memory of his uncle, which his birth date would confirm.",
+  "photos": [
+   "0525ab821f",
+   "35a83eadaa",
+   "6f7080aaa8",
+   "cfbd90bef7"
+  ]
+ },
+ {
+  "kind": "pattern",
+  "title": "From Illinois to Springfield",
+  "body": "Wes was born in Pontiac, Illinois in 1881, while Clair was born in Springfield in 1895, so W.T. and Clara Kate moved the family between those dates. Clara Kate's portrait is stamped by a photographer in \"Urbana\", likely Urbana, Illinois, about 60 miles from Pontiac. (There is also an Urbana in Dallas County, MO, north of Springfield, so the photographer's name could be checked in both places.) The 1880 and 1900 censuses would pin down the move.",
+  "photos": [
+   "58cc727b08",
+   "3ae6c36609",
+   "97dcacabab"
+  ]
+ },
+ {
+  "kind": "pattern",
+  "title": "Cousins who line up",
+  "body": "Some captions check each other nicely. Bob says Nancy Jane and Barbara were \"the same age as Jerry and me\", and the school photos agree: Barbara was at Parkview High in 1957-58 and graduated in 1960 (Jerry was born in 1942), while Nancy Jane was at Jarrett Jr. High in 1956-57 (Bob was born in 1944).",
+  "photos": [
+   "13ee9c6729",
+   "eb86b478c4",
+   "e0c64ef513",
+   "c7f762c99b"
+  ]
+ }
+]
