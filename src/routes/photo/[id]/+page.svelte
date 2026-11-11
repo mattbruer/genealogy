@@ -7,6 +7,13 @@
 	let photo = $derived(data.photo);
 	let enhanced = $state(false);
 	let notes = $derived(notesFor(photo.id));
+	let downloadName = $derived(fileName(photo.caption, photo.id, enhanced));
+
+	/** "Bruer - W.T. & Clara Bruer (enhanced).webp" from the caption's first few words */
+	function fileName(caption, id, isEnhanced) {
+		const words = caption.replace(/[^\w\s&.,'-]/g, '').split(/\s+/).slice(0, 8).join(' ');
+		return `Bruer - ${words || id}${isEnhanced ? ' (enhanced)' : ''}.webp`;
+	}
 
 	$effect(() => {
 		photo.id;
@@ -33,27 +40,29 @@
 			height={photo.height}
 			class="mx-auto h-auto max-h-[80vh] w-auto rounded shadow-md"
 		/>
-		{#if photo.enhanced}
-			<div class="mt-3 flex items-center justify-center gap-3">
+		<div class="mt-3 flex items-center justify-center gap-3">
+			{#if photo.enhanced}
 				<button
 					onclick={() => (enhanced = !enhanced)}
-					class="rounded-full border border-sepia px-4 py-1 text-sm transition
+					class="rounded-full border border-sepia px-4 py-1.5 text-sm transition
 						{enhanced ? 'bg-sepia text-white' : 'text-sepia hover:bg-sepia/10'}"
 				>
 					{enhanced ? 'Show original' : '✨ Enhance'}
 				</button>
-				<a
-					href={imageUrl(photo.id, enhanced ? 'enhanced' : 'original')}
-					download
-					class="text-sm text-ink/50 hover:underline">Download</a
-				>
-			</div>
-			{#if enhanced}
-				<p class="mt-2 text-center text-xs text-ink/50">
-					AI-enhanced: scratches and dust repaired, detail sharpened, contrast restored. Faces are not
-					redrawn.
-				</p>
 			{/if}
+			<a
+				href={imageUrl(photo.id, enhanced ? 'enhanced' : 'original')}
+				download={downloadName}
+				class="rounded-full border border-ink/20 px-4 py-1.5 text-sm text-ink/70 transition hover:bg-ink/5"
+			>
+				↓ Download {enhanced ? 'enhanced' : 'photo'}
+			</a>
+		</div>
+		{#if enhanced}
+			<p class="mt-2 text-center text-xs text-ink/50">
+				AI-enhanced: scratches and dust repaired, detail sharpened, contrast restored. Faces are not
+				redrawn.
+			</p>
 		{/if}
 	</figure>
 
