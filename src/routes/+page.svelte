@@ -1,5 +1,8 @@
 <script>
-	import { photos, search, imageUrl, notesFor } from '#lib/photos.js';
+	import { photos, notes, search, imageUrl, notesFor } from '#lib/photos.js';
+
+	const conflicts = notes.filter((n) => n.kind === 'conflict');
+	const patterns = notes.filter((n) => n.kind === 'pattern');
 
 	let query = $state('');
 	let results = $derived(search(query));
@@ -11,6 +14,21 @@
 		{photos.length} photographs, captioned by Bob Bruer. Open any photo to read its caption,
 		research notes, and an AI-enhanced version.
 	</p>
+	<a
+		href="/notes"
+		class="mt-6 block rounded-lg border-l-4 border-conflict bg-white p-5 shadow-sm transition hover:shadow-md"
+	>
+		<p class="text-xs font-semibold tracking-wide text-conflict uppercase">
+			Reading all {photos.length} captions together
+		</p>
+		<p class="mt-1 font-serif text-xl">
+			{conflicts.length} things that don't add up, and {patterns.length} patterns hiding across the photos
+		</p>
+		<p class="mt-2 text-sm text-ink/70">
+			A man who was 92 and 93 at once, an address that doesn't fit, a birthplace with three answers,
+			and a name that leads to Thomas Jefferson. <span class="font-medium text-conflict">See them all →</span>
+		</p>
+	</a>
 	<input
 		type="search"
 		bind:value={query}

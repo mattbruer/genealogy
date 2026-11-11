@@ -1,5 +1,8 @@
 <script>
 	import '../app.css';
+	import { notes } from '#lib/photos.js';
+
+	const conflictCount = notes.filter((n) => n.kind === 'conflict').length;
 
 	/** @type {{children: import('svelte').Snippet}} */
 	let { children } = $props();
@@ -17,7 +20,12 @@
 <header class="border-b border-sepia/20">
 	<nav class="mx-auto flex max-w-7xl items-baseline justify-between gap-4 px-4 py-4">
 		<a href="/" class="font-serif text-xl">Bruer Family Photographs</a>
-		<a href="/notes" class="text-sm text-sepia hover:underline">Notes &amp; conflicts</a>
+		<a
+			href="/notes"
+			class="rounded-full bg-conflict px-4 py-1.5 text-sm font-medium whitespace-nowrap text-white shadow-sm transition hover:brightness-110"
+		>
+			{conflictCount} things don't add up →
+		</a>
 	</nav>
 </header>
 
